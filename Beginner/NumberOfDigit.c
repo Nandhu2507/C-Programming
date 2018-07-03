@@ -13,6 +13,6 @@ int main()
        count++;
     }
   }
-  printf("Number of digit is :%d",count+1);
+  printf("%d",count+1);
   return 0;
 }
