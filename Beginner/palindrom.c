@@ -2,7 +2,6 @@
 int main()
 {
   int data,rev1;
-  printf("enter the number:");
   scanf("%d",&data);
   rev1=rev(data);
   if(data==rev1)
