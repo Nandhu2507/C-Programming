@@ -1,27 +1,27 @@
 #include<stdio.h>
 int main()
 {
-  int arr[10],limit,i,j,t;
+  int coll[10],limit,i,j,temp;
   scanf("%d",&limit);
   for(i=0;i<limit;i++)
   {
-    scanf("%d",&arr[i]);
+    scanf("%d",&coll[i]);
   }
   for (i=0;i<limit;i++)
   {
     for(j=0;j<limit;j++)
     {
-        if(arr[j]>arr[i])
+        if(coll[j]>coll[i])
         {
-          t=arr[j];
-          arr[j]=arr[i];
-          arr[i]=t;
+          temp=coll[j];
+          coll[j]=coll[i];
+          coll[i]=temp;
         }
     }
   }
   for(i=0;i<limit;i++)
   {
-    printf("%d\t",arr[i]);
+    printf("%d\t",coll[i]);
   }
   
   return 0;
