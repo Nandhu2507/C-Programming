@@ -21,7 +21,7 @@ int main()
   }
   for(i=0;i<limit;i++)
   {
-    printf("%d\t",coll[i]);
+    printf("%d",coll[i]);
   }
   
   return 0;
